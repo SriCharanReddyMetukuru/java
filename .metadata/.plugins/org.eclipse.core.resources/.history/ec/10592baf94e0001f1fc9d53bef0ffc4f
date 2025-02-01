@@ -1,0 +1,17 @@
+package com.wipro.java;
+
+class MyClass {
+    int num = 5;
+ 
+    public void changeValue(int num) {
+        this.num = num;
+    }
+}
+ 
+public class Main {
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();      // Creating a object instance named obj
+        obj.changeValue(10);              // Changing the num value from changeValue function
+        System.out.println(obj.num);	//  printing the num value
+    }
+}
