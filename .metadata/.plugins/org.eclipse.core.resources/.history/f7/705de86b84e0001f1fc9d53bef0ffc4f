@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package com.wipro.java;
+
+/**
+ * 
+ */
+public class Car {
+	
+	// Member Variables
+	String brandvalue;
+	int mileagevalue;
+	
+	Car(String brand,int mileage){
+		this.brandvalue=brand;
+		this.mileagevalue=mileage;
+	}
+	
+	void display() {
+		System.out.println("Car brand:"+brandvalue+"car mileage:"+mileagevalue);
+	}
+	public static void main(String[] args) {
+		
+		Car carobject1=new Car("maruthi",23) ;
+		Car carobject2=new Car("BMW",13);
+		carobject1.display();
+		carobject2.display();
+
+	}
+
+}
