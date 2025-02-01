@@ -12,6 +12,6 @@ public class Main {
     public static void main(String[] args) {
         Main obj = new Main();      // Creating a object instance named obj
         obj.changeValue(10);              // Changing the num value from changeValue function
-        System.out.println(obj.num);	//  printing the num value
+        System.out.println(obj.num);	//  print the num value
     }
 }
