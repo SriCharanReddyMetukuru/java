@@ -15,7 +15,7 @@ public class StudentHashMap {
         studentMap.put(104, "Charlie");
         studentMap.put(105, "David");
         studentMap.put(106, "Eva");
-        studentMap.put(107, "Alice"); // Duplicate name
+        studentMap.put(107, "Alice"); // Duplicate nam
         studentMap.put(108, "Frank");
         studentMap.put(109, "Grace");
         studentMap.put(110, "Henry");
